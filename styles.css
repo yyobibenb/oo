@@ -1,0 +1,44 @@
+
+:root{
+  --armor-red:#FF2B2B;
+  --ink:#0B0B0D;
+  --carbon:#16161A;
+  --smoke:#A0A0AB;
+  --ice:#F5F7FA;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,Helvetica,sans-serif;background:var(--ink);color:#fff}
+.container{max-width:1120px;margin:0 auto;padding:0 16px}
+.nav{position:sticky;top:0;background:rgba(0,0,0,.45);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.1);z-index:999}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.04em}
+.badge{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:4px 10px;border-radius:999px;font-size:12px;color:#fff}
+.nav a{color:#fff;text-decoration:none;padding:8px 12px;border-radius:16px}
+.nav a.active,.btn-primary{background:var(--armor-red);}
+.nav a:hover{background:rgba(255,255,255,.08)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:none;cursor:pointer;border-radius:16px;padding:12px 18px;font-weight:600}
+.btn-primary{color:#fff}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff}
+.hero{position:relative;padding:80px 0}
+.hero::before{content:"";position:absolute;inset:-20% -20% auto -20%;height:60%;background:radial-gradient(800px 400px at 20% 0%, rgba(255,43,43,.15), transparent 70%);pointer-events:none}
+.h1{font-size:44px;line-height:1.1;margin:0 0 12px}
+.lead{color:rgba(255,255,255,.7);max-width:720px}
+.grid{display:grid;gap:20px}
+.grid-3{grid-template-columns:repeat(1,1fr)}
+@media(min-width:840px){.grid-3{grid-template-columns:repeat(3,1fr)}}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:18px}
+.card h3{margin:0 0 8px}
+.list{list-style:none;padding:0;margin:12px 0 0}
+.list li{display:flex;gap:8px;align-items:flex-start;color:rgba(255,255,255,.75);margin:6px 0}
+.price{font-size:28px;font-weight:800;margin:6px 0 0}
+.section{padding:56px 0}
+.footer{border-top:1px solid rgba(255,255,255,.1);padding:24px 0;color:rgba(255,255,255,.7);font-size:14px}
+.form{display:grid;gap:12px}
+.input, .textarea{background:#0E0E11;border:1px solid rgba(255,255,255,.12);border-radius:12px;color:#fff;padding:12px}
+.textarea{min-height:120px;resize:vertical}
+.two-col{display:grid;gap:24px}
+@media(min-width:900px){.two-col{grid-template-columns:1.2fr .8fr}}
+.small{font-size:12px;color:rgba(255,255,255,.55)}
+.logo{width:32px;height:32px;border-radius:8px;object-fit:cover}
+.kicker{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:6px 10px;border-radius:999px;font-size:12px}
+.red{color:var(--armor-red)}
