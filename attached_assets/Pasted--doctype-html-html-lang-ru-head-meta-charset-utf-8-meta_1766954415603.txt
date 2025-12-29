@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ARMOR — РКО, бухгалтерия и Reels</title>
+  <link rel="icon" type="image/jpeg" href="assets/favicon.jpg"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <img src="assets/logo.jpg" alt="ARMOR" class="logo"/>
+      <span>ARMOR</span>
+      <span class="badge">РКО · Бухучёт · Reels</span>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Главная</a>
+      <a href="index.html#banks">Каталог</a>
+      <a href="services.html" class="">Услуги</a>
+      <a href="cases.html" class="">Кейсы & Контакты</a>
+    </nav>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="container">
+    <div class="kicker">Комплексно защищаем бизнес от рутины</div>
+    <h1 class="h1">ARMOR — РКО, бухгалтерия и <span class="red">продюсирование Reels</span></h1>
+    <p class="lead">Откроем ИП/ООО, подберём банк и тариф по РКО, возьмём на себя учёт и отчётность. А ещё — выведем в рекомендации короткими видео.</p>
+    <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn btn-primary" href="cases.html">Рассчитать стоимость →</a>
+      <a class="btn btn-ghost" href="cases.html#cases">Смотреть кейсы</a>
+    </div>
+    <div style="margin-top:16px;display:flex;gap:16px;flex-wrap:wrap;color:rgba(255,255,255,.75)">
+      <div>✓ Открытие счёта 24–72ч</div>
+      <div>✓ Передача в ФНС без сбоев</div>
+      <div>✓ Контент‑план и монтаж</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid-3">
+    <div class="card">
+      <h3>РКО и банки</h3>
+      <p>Подбор банка и тарифа под обороты и модель бизнеса. Документы, сопровождение до выпуска карты и ДБО.</p>
+      <p class="small">Партнёрские условия с популярными банками.</p>
+    </div>
+    <div class="card">
+      <h3>Бухгалтерия</h3>
+      <p>Учёт, отчётность, налоги, зарплата и кадры. Настраиваем автоматизацию и контроль кассы.</p>
+    </div>
+    <div class="card">
+      <h3>Reels‑продюсирование</h3>
+      <p>Стратегия, скрипты, съёмка и монтаж. Промо, воронка в мессенджер, аналитика.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="banks">
+  <div class="container">
+    <h2 style="margin:0 0 16px">Каталог — Регистрация ИП/ООО и счета в банках</h2>
+    <div class="grid grid-4">
+      <a href="https://clck.ru/3R4zQH" class="bank-card">
+        <img src="attached_assets/IMG_1894_1766952192677.jpeg" alt="Альфа Банк"/>
+        <h3>Альфа Банк</h3>
+        <div class="price">0₽</div>
+      </a>
+      <a href="https://clck.ru/3R4zSd" class="bank-card">
+        <img src="attached_assets/IMG_1895_1766952220969.jpeg" alt="ГПБ"/>
+        <h3>ГПБ</h3>
+        <div class="price">590₽</div>
+      </a>
+      <a href="https://clck.ru/3R4zVc" class="bank-card">
+        <img src="attached_assets/IMG_1896_1766952404002.jpeg" alt="Ак Барс"/>
+        <h3>Ак Барс</h3>
+        <div class="price">0₽</div>
+      </a>
+      <a href="https://clck.ru/3R4zbV" class="bank-card">
+        <img src="attached_assets/IMG_1897_1766952687027.jpeg" alt="Уралсиб"/>
+        <h3>Уралсиб</h3>
+        <div class="price">0₽</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 style="margin:0 0 16px">Тарифы</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Старт</h3>
+        <div class="price">от 7 900 ₽</div>
+        <ul class="list">
+          <li>ИП/ООО под ключ</li>
+          <li>Подбор банка и РКО</li>
+          <li>Первичная отчётность</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Рост <span class="badge">Хит</span></h3>
+        <div class="price">от 19 900 ₽</div>
+        <ul class="list">
+          <li>Полное ведение бухучёта</li>
+          <li>Зарплатный проект</li>
+          <li>Ежемесячная отчётность</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Медиа</h3>
+        <div class="price">от 29 900 ₽</div>
+        <ul class="list">
+          <li>Reels‑продюсирование</li>
+          <li>8–12 роликов/мес</li>
+          <li>Тоннель из заявки в сделку</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:10px">
+      <img src="assets/logo.jpg" class="logo" alt="ARMOR"/>
+      <strong>ARMOR</strong>
+    </div>
+    <div>© 2025 ARMOR. Все права защищены.</div>
+    <div style="display:flex;gap:12px">
+      <a href="#" style="color:inherit">Оферта</a>
+      <a href="#" style="color:inherit">Политика</a>
+      <a href="https://t.me/molwyy" class="btn btn-primary" style="text-decoration:none">Telegram</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
